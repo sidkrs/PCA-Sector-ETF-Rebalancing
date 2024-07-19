@@ -63,7 +63,6 @@ Users can adjust:
 
 ## Future Improvements
 
-- Implement transaction costs and slippage in the backtest
 - Explore alternative derivative calculation methods
 - Add more sophisticated portfolio optimization techniques
 - Incorporate fundamental data to enhance sector selection
