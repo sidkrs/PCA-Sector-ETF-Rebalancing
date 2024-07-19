@@ -27,8 +27,8 @@ The program analyzes a set of sector ETFs and reweights them monthly based on th
 
 For the period from July 2012 (due to rolling timeframe) to January 2024:
 
-- **Best Sharpe Ratio: 4.94
-- **Optimal PC Weights: PC1 (10%), PC2 (84%), PC3 (6%)
+- **Best Sharpe Ratio**: 4.94
+- **Optimal PC Weights**: PC1 (10%), PC2 (84%), PC3 (6%)
 
 ## Interpretation
 
