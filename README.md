@@ -4,7 +4,7 @@ This project implements a dynamic sector ETF rebalancing strategy using Principa
 
 ## Overview
 
-The program analyzes a set of sector ETFs and reweights them monthly based on the highest 3-month rolling derivative of the 24-month rolling PCA loadings for the first three principal components (PC1, PC2, PC3). It then backtests various weight combinations to find the optimal allocation for each principal component.
+The program analyzes a set of sector ETFs and reweights them monthly based on the highest 3-month rolling derivative of the 24-month rolling PCA loadings for three principal components (PC1, PC2, PC3). It then backtests various weight combinations to find the optimal allocation for each principal component.
 
 ## Key Features
 
