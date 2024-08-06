@@ -49,6 +49,7 @@ The high weighting of PC2 (84%) suggests that the second most influential factor
 Users can adjust:
 - The derivative rolling window (default: 3 months)
 - The PCA loading window (default: 24 months)
+- The timeframe to backtest
 - The set of sector ETFs analyzed
 
 ## Dependencies
