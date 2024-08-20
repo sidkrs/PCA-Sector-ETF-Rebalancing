@@ -27,6 +27,7 @@ def get_sector_data(start_date='2010-01-01', end_date='2024-01-31'):
         "IYH",  # Healthcare
         "IYF",  # Financials
         "IYC",  # Consumer Discretionary
+        "IYZ",  # Communication
         "IYK",  # Consumer Staples
         "IYE",  # Energy
         "IYJ",  # Industrials
