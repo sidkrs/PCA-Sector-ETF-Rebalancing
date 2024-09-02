@@ -25,19 +25,26 @@ The program analyzes a set of sector ETFs and reweights them monthly based on th
 
 ## Results
 
-For the period from July 2012 (due to rolling timeframe) to January 2024:
+For the period analyzed:
 
-- **Best Sharpe Ratio**: 4.94
-- **Optimal PC Weights**: PC1 (10%), PC2 (84%), PC3 (6%)
-- **Sole Weighting** Additionally, weighting just PC2 (100%) returns a portfolio that also comfortably beats the benchmark.
+- **Best Sharpe Ratio**: 0.872
+- **Optimal PC Weights**: PC1 (4%), PC2 (95%), PC3 (1%)
+
+Performance metrics:
+- **Annualized Alpha**: 8.16% (0.0816)
+- **Beta**: 0.75811
+- **R-squared**: 0.43692
+- **Max Drawdown**: -0.23334
 
 ## Interpretation
 
-The high weighting of PC2 (84%) suggests that the second most influential factor in sector returns is driving the strategy's performance. This could indicate:
+The high weighting of PC2 (95%) suggests that the second most influential factor in sector returns is driving the strategy's performance. This could indicate:
 
 1. **Sector Rotation**: PC2 might capture sector rotation trends, allowing the strategy to adapt to changing market leadership.
 2. **Risk Factors**: PC2 may represent important risk factors not captured by the market's primary trend (usually represented by PC1).
 3. **Economic Cycles**: The second component could be sensitive to economic cycle shifts, enabling the strategy to adjust to different macroeconomic environments.
+
+The annualized alpha of 8.16% suggests that the strategy is generating significant excess returns compared to the benchmark, after accounting for market risk. This is a strong positive indicator of the strategy's performance. The beta of 0.75811 indicates that the strategy is less volatile than the market. The R-squared value of 0.43692 suggests that about 44% of the portfolio's movements can be explained by the benchmark's movements, indicating a moderate level of correlation with the market.
 
 ## Visualizations
 
@@ -68,3 +75,23 @@ Users can adjust:
 - Explore alternative derivative calculation methods
 - Add more sophisticated portfolio optimization techniques
 - Incorporate fundamental data to enhance sector selection
+- Investigate ways to improve R-squared while maintaining high alpha
+- Analyze the strategy's performance in different market conditions
+- Implement risk management techniques to potentially reduce maximum drawdown
+
+## Data Sources
+
+The strategy uses the following sector ETFs:
+- IYW (Technology)
+- IYH (Healthcare)
+- IYF (Financials)
+- IYC (Consumer Discretionary)
+- IYZ (Communication)
+- IYK (Consumer Staples)
+- IYE (Energy)
+- IYJ (Industrials)
+- IYM (Materials)
+- IDU (Utilities)
+- IYR (Real Estate)
+
+The S&P 500 index (^GSPC) is used as the benchmark.
