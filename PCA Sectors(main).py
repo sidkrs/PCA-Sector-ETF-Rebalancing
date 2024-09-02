@@ -279,7 +279,7 @@ def get_returns(portfolio, returns, risk_free_rate=0.03):
 
     def calculate_sharpe_ratio(returns, risk_free_rate):
         excess_returns = returns - risk_free_rate / 12
-        return np.sqrt(252) * excess_returns.mean() / excess_returns.std()
+        return np.sqrt(12) * excess_returns.mean() / excess_returns.std()
 
     best_sharpe_ratio = -np.inf
     best_portfolio_returns = None
