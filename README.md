@@ -70,15 +70,6 @@ Users can adjust:
 - statsmodels
 - matplotlib
 
-## Future Improvements
-
-- Explore alternative derivative calculation methods
-- Add more sophisticated portfolio optimization techniques
-- Incorporate fundamental data to enhance sector selection
-- Investigate ways to improve R-squared while maintaining high alpha
-- Analyze the strategy's performance in different market conditions
-- Implement risk management techniques to potentially reduce maximum drawdown
-
 ## Data Sources
 
 The strategy uses the following sector ETFs:
