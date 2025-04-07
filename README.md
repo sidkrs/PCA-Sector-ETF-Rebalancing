@@ -44,8 +44,6 @@ The high weighting of PC2 (95%) suggests that the second most influential factor
 2. **Risk Factors**: PC2 may represent important risk factors not captured by the market's primary trend (usually represented by PC1).
 3. **Economic Cycles**: The second component could be sensitive to economic cycle shifts, enabling the strategy to adjust to different macroeconomic environments.
 
-The annualized alpha of 8.16% suggests that the strategy is generating significant excess returns compared to the benchmark, after accounting for market risk. This is a strong positive indicator of the strategy's performance. The beta of 0.75811 indicates that the strategy is less volatile than the market. The R-squared value of 0.43692 suggests that about 44% of the portfolio's movements can be explained by the benchmark's movements, indicating a moderate level of correlation with the market.
-
 ## Visualizations
 
 1. **PCA Loadings**: Shows how each sector contributes to the principal components over time.
